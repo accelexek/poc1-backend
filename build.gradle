@@ -35,6 +35,7 @@ dependencies {
 	compile('org.liquibase:liquibase-core')
 //	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-webflux')
+	compile('com.amazonaws:aws-java-sdk-s3:1.11.271')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	runtime('org.postgresql:postgresql')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
